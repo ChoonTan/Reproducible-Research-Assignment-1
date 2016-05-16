@@ -84,7 +84,7 @@ ggplot(data=totalsteps, aes(totalsteps$steps)) +
         labs(x="Total Number of Steps Per Day", y="Frequency")
 ```
 
-![](PA1_Template_files/figure-html/plot_totalsteps-1.png)<!-- -->
+![](PA1_Template_files/figure-html/plot_totalsteps-1.png?raw=true)<!-- -->
 
 2.3 What is the mean and median of the total number of steps taken per day?
 
@@ -133,7 +133,7 @@ ggplot(int_meansteps, aes(x=interval, y=steps)) +
         labs(title="Average Daily Activity Pattern", x="Interval", y="Avg Number of steps")
 ```
 
-![](PA1_Template_files/figure-html/plot_timeseries-1.png)<!-- -->
+![](PA1_Template_files/figure-html/plot_timeseries-1.png?raw=true)<!-- -->
 
 3.2 Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -239,7 +239,7 @@ ggplot(data=totalsteps2, aes(totalsteps2$steps)) +
         labs(x="Total Number of Steps Per Day", y="Frequency")
 ```
 
-![](PA1_Template_files/figure-html/plot_totalsteps2-1.png)<!-- -->
+![](PA1_Template_files/figure-html/plot_totalsteps2-1.png?raw=true)<!-- -->
 
 4.4.3 Calculate mean and median number of steps taken each day
 
@@ -316,7 +316,7 @@ plot4 <- xyplot(int_meansteps_new$meanintSteps ~ int_meansteps_new$interval | in
 print(plot4)
 ```
 
-![](PA1_Template_files/figure-html/plot_timeseries2-1.png)<!-- -->
+![](PA1_Template_files/figure-html/plot_timeseries2-1.png?raw=true)<!-- -->
 
 
 
